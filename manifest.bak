@@ -9,12 +9,14 @@
   </record>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="WxCloudRegistration">1.0</value>
+  </record>
   <value name="listACL">Default</value>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <null name="build"/>
-  <null name="description"/>
+  <value name="build"></value>
+  <value name="description"></value>
   <value name="created_date">19-09-2024 23:27:54 CEST</value>
   <null name="extendedProperties"/>
 </Values>
